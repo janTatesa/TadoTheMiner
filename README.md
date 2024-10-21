@@ -1,9 +1,12 @@
-<img alt="Tado's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=TadoTheMiner&show_icons=true&hide_border=true&theme=catppuccin_mocha" width="430px" align="center" />
+<div align="center">
+    <img alt="Tado's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=TadoTheMiner&show_icons=true&hide_border=true&theme=catppuccin_mocha">
+</div>
+
 ```rust
 use std::fmt;
 
 fn main() {
-    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "Nixos"};
+    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "NixOS"};
     println!("{tado}");
 }
 
