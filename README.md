@@ -1,13 +1,9 @@
-<div align= "center">
-    <img alt="Current Discord status" src="https://discord.c99.nl/widget/theme-2/685203839531483147.png" width="430px" align="center" />
-    <img alt="Tado's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=TadoTheMiner&show_icons=true&hide_border=true&theme=catppuccin_mocha" width="430px" align="center" />
-</div>
-
+<img alt="Tado's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=TadoTheMiner&show_icons=true&hide_border=true&theme=catppuccin_mocha" width="430px" align="center" />
 ```rust
 use std::fmt;
 
 fn main() {
-    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "Opensuse"};
+    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "Nixos"};
     println!("{tado}");
 }
 
