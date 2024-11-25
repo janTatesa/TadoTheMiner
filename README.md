@@ -6,7 +6,7 @@
 use std::fmt;
 
 fn main() {
-    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "NixOS"};
+    let tado = Rustacean{name: "Tatesa", pronouns: &Pronouns::TheyThem, capitalise_pronouns: true, distro: "NixOS"};
     println!("{tado}");
 }
 
@@ -14,6 +14,7 @@ fn main() {
 struct Rustacean<'a> {
     name: &'a str,
     pronouns: &'a Pronouns<'a>,
+    capitalise_pronouns: bool,
     distro: &'a str,
 }
 
