@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="Tado's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=TadoTheMiner&show_icons=true&hide_border=true&theme=catppuccin_mocha">
+    <img src="https://github-readme-stats.vercel.app/api?username=janTatesa&show_icons=true&hide_border=true&theme=catppuccin_mocha">
 </div>
 
 ```rust
